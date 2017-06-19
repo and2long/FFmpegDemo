@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initData() {
+        //自己准备video.mp4和audio.aac放在SD卡根目录运行测试
         videoPath = "/sdcard/video.mp4";
         audioPath = "/sdcard/audio.aac";
         outputPath = "/sdcard/output.mp4";
